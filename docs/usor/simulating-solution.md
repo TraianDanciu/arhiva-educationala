@@ -6,13 +6,28 @@ tags:
     - simulare
 ---
 
-Daca vreti sa ne ajutati cu acest articol, ne puteti gasi pe [github](https://github.com/roalgo-discord/arhiva-educationala) sau pe [serverul nostru de discord](https://discord.gg/vdDRSmg3fC)
-
-Mai jos găsiți resurse pe care le puteți citi până atunci.
-
 ## Introducere
 
-## Problema exemplu
+Unele probleme nu ne cer doar rezultatul final, ci si unele rezultate pe care le obtinem pe parcurs. O simulare necesita $3$ lucruri:
+1. O stare care poate fi descrisa in mod unic, prin niste variabile
+2. O masura de timp, un tact (care de obicei, este definita de problema)
+3. O bucla cu o conditie de oprire
+
+O simulare arata astfel:
+```cpp
+gata = 1;
+while (!gata) {
+    <folosim starea ca sa facem ceva>
+    <avansam la urmatorul pas, trece un tact>
+    if (<conditie de oprire>) {
+        gata = 1;
+    }
+}
+```
+
+## Problema exemplu - [simulare](https://kilonova.ro/problems/3237)
+
+
 
 ## Concluzii
 
