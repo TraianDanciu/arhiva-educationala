@@ -27,11 +27,81 @@ while (!gata) {
 
 ## Problema exemplu - [simulare](https://kilonova.ro/problems/3237)
 
+În această problemă, cum cere și titlul, trebuie doar să simulăm procesul descris. De fiecare dată când citim o direcție, avansăm în acel mod, creștem suma cu valoarea de la poziția obținută și o afișăm.
 
+Sursa de 100 de puncte:
+```cpp
+#include <iostream>
+
+const int MAXN = 1'000;
+const char T_NORD = 'N';
+const char T_EST = 'E';
+const char T_SUD = 'S';
+const char T_VEST = 'V';
+
+int mat[MAXN][MAXN], q, x, y;
+
+void fastReadWrite() {
+    std::ios_base::sync_with_stdio(0);
+    std::cin.tie(0);
+    std::cout.tie(0);
+}
+
+void readMatrix() {
+    int i, j, n, m;
+    std::cin >> n >> m >> q >> x >> y;
+    x--; // noi indexam de la 0
+    y--;
+    for (i = 0; i < n; i++) {
+        for (j = 0; j < m; j++) {
+            std::cin >> mat[i][j];
+        }
+    }
+}
+
+void simulateRoad() {
+    int i, dir;
+    long long sum;
+    while (!isalpha(dir = std::cin.get())); // gasim prima litera (prima directie)
+    sum = 0;
+    for (i = 0; i < q; i++) {
+        if (dir == T_NORD) {
+            x--;
+        }
+        else if (dir == T_EST) {
+            y++;
+        }
+        else if (dir == T_SUD) {
+            x++;
+        }
+        else { // T_VEST
+            y--;
+        }
+        
+        sum += mat[x][y];
+        std::cout << sum << " ";
+        
+        dir = std::cin.get();
+    }
+    std::cout << "\n";
+}
+
+int main() {
+    fastReadWrite();
+    readMatrix();
+    simulateRoad();
+    return 0;
+}
+```
+
+## Probleme rezolvate
 
 ## Concluzii
 
+În problemele de simulare, de obicei, este destul de ușor să îți dai seama ce trebuie să faci, dar implementarea, uneori, nu este așa de ușoară precum pare. Pentru ca implementările a acestor probleme să vi se pară mai ușoare, recomandăm să rezolvați cât mai multe probleme de implementare/simulare, eventual și unele la care este de scris mai mult.
+
 ## Probleme suplimentare
+
 
 * [Probleme de implementare de pe kilonova](https://kilonova.ro/tags/290)
 
