@@ -103,13 +103,27 @@ La unele probleme, chiar dacă nu ne este cerut rezultatul pe parcursul simulăr
 
 ### Optimizarea prin găsirea unei perioade
 
+Uneori, stările unei simulări se repetă periodic. La anumite probleme, o optimizare cerută este alfarea acelei perioade și folosirea ei pentru aflarea tuturor elementelor
+
+#### Problemă exemplu: [galbeni - OJI 2013 VI](https://kilonova.ro/problems/402)
+
 TO-DO
 
 ### Optimizarea prin găsirea unei formule care generează stările următoare
 
+Anumite probleme se generează într-un mod care poate fi stabilit de o formulă.
+
+#### Problemă exemplu: [asort - Baraj 2016 Juniori](https://kilonova.ro/problems/1084)
+
 TO-DO
 
 ## Probleme rezolvate
+
+### Problema [robinson - ONI 2005 VI](https://kilonova.ro/problems/1221)
+
+TO-DO
+
+### Problema [tren - OJI 2010 V](https://kilonova.ro/problems/796)
 
 TO-DO
 
@@ -121,21 +135,17 @@ Problemele de optimizare sunt, în mare parte, din categoriile prezentate. Dar, 
 
 ## Probleme suplimentare
 
-* [robinson - ONI 2005 VI](https://kilonova.ro/problems/1221) - problema rezolvata
 * [joc - ONI 2011 VI](https://kilonova.ro/problems/1363)
 * [furnica - OJI 2007 VI](https://kilonova.ro/problems/763)
 * [oua - ONI 2007 VI](https://kilonova.ro/problems/1268)
-* [tren - OJI 2010 V](https://kilonova.ro/problems/796) - problema rezolvata
 * [circular - OJI 2022 X](https://kilonova.ro/problems/284)
 * [gcl - Baraj 2018 Juniori](https://kilonova.ro/problems/1091) (O problemă la care este mult de scris, dar care vă ajută să vă organizați codul mai bine și vă îmbunătățește abilitățile de implementare)
 * [medalion - ONI 2012 VI](https://kilonova.ro/problems/1387) (Trebuie să simulați cum se construiește o spirală)
 * [tinta - ONI 2014 VI](https://kilonova.ro/problems/1435)
 * [robinhood - ONI 2024 V](https://kilonova.ro/problems/2637)
-* [galbeni - OJI 2013 VI](https://kilonova.ro/problems/402) - cred ca pe asta o fac problema exemplu la perioada
 * [numere - OJI 2008 V](https://kilonova.ro/problems/772) (necesită cunoștința perioadei [Pisano](https://en.wikipedia.org/wiki/Pisano_period))
 * [cartofi - OJI 2021 VIII](https://kilonova.ro/problems/936)
 * [seif - Lot 2022 Juniori](https://kilonova.ro/problems/1818)
-* [asort - Baraj 2016 Juniori](https://kilonova.ro/problems/1084) - pe asta o fac problema exemplu la formula
 * [loopover - Lot 2022 Juniori](https://kilonova.ro/problems/1823)
 * [Probleme de forță brută de pe kilonova](https://kilonova.ro/tags/323)
 * [Probleme de periodicitate de pe kilonova](https://kilonova.ro/tags/502)
