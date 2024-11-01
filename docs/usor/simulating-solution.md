@@ -457,6 +457,7 @@ Problemele de optimizare sunt, în mare parte, din categoriile prezentate. Dar, 
 * [robinhood - ONI 2024 V](https://kilonova.ro/problems/2637)
 * [numere - OJI 2008 V](https://kilonova.ro/problems/772) (necesită cunoștința perioadei [Pisano](https://en.wikipedia.org/wiki/Pisano_period))
 * [cartofi - OJI 2021 VIII](https://kilonova.ro/problems/936)
+* [sim - ONI 2024 VI](https://kilonova.ro/problems/2642)
 * [seif - Lot 2022 Juniori](https://kilonova.ro/problems/1818)
 * [loopover - Lot 2022 Juniori](https://kilonova.ro/problems/1823)
 * [Probleme de forță brută de pe kilonova](https://kilonova.ro/tags/323)
