@@ -74,16 +74,11 @@ for (int i = 1; i <= n; i++) {
 Totuși, nu am folosit încă o proprietate esențială pentru a optimiza calculul de mai sus.
 
 !!! note "Observație"
-    $a^b = \left(a^{\frac{n}{2}}\right)^2$ cu alte cuvinte, dacă $n$ este par, putem să aflăm $a^\frac{n}{2}$ și apoi să-l ridicăm la pătrat. 
+    $a^n = \left(a^{\frac{n}{2}}\right)^2$. Cu alte cuvinte, putem să aflăm $a^\frac{n}{2}$ și apoi să-l ridicăm la pătrat. 
 
 Această proprietate ne va ajuta să deducem următorul mod de a calcula $a^n$ recursiv. 
 
-$a^b$ este egal cu una din următoarele două expresii:
-
-* $a^{n-1} \cdot a$, dacă $n$ este impar.
-* $({a^\frac{n}{2}}) \cdot ({a^\frac{n}{2}})$, dacă $n$ este par.
-
-Pentru $n = 0$, răspunsul este evident $1$. 
+$a^n = \begin{cases} 1 &\text{dacă } n = 0 \\ a^{n-1} \cdot a &\text{dacă } n \text{ impar} \\ ({a^\frac{n}{2}}) \cdot ({a^\frac{n}{2}}) &\text{dacă } n \text{ par} \end{cases}$
 
 Astfel, prin împărțirile treptate la $2$ ale exponentului, reducem complexitatea la $O(\log n)$, unde $n$ este exponentul.
 
@@ -132,6 +127,7 @@ Aritmetica modulară este esențială pentru înțelegerea calculelor de acest f
 * [modulo infoarena](https://www.infoarena.ro/problema/modulo)
 * [puteri2 pbinfo](https://www.pbinfo.ro/probleme/843/puteri2)
 * [Santa's bot Codeforces](https://codeforces.com/contest/1279/problem/D)
+* [Beautiful Numbers Codeforces](https://codeforces.com/contest/300/problem/C) - necesită [combinări](https://edu.roalgo.ro/mediu/intro-combinatorics/), despre care vom învăța ulterior.
 
 ## Lectură suplimentară
 
