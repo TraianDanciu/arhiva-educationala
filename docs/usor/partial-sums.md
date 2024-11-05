@@ -65,8 +65,6 @@ $suma = sp[x][y] - sp[x][z - 1]$
 
 Asemenea cazului precedent este si cazul în care noi dorim să aflăm suma unei submatrice care are colțurile $(z, 1)$ și $(x, y)$. Similar, $sp[x][y]$ nu este suficient, dar este un punct de plecare. Față de cazul precedent, submatricea \emph{în plus} este cea determinată de colțurile $(1, 1)$ și $(z - 1, y)$. În final, formula pentru acest caz va fi $sp[x][y] - sp[z - 1][y]$.
 
-% lasa imaginile vietii asa, vad eu cum le refac, dar tot ar fi util sa pui referinte (gen "In fig.~\ref{fig:sp5} vorbim de Scufita Rosie" nuj)
-
 ![](../images/sumepartiale/sp5.png)
 
 $suma = sp[x][y] - sp[z - 1][y]$
