@@ -377,6 +377,7 @@ Acest algoritm este unul din cele mai populari algoritmi dat atât la olimpiade,
 * [Baraj Juniori 2021 intergalactic](https://kilonova.ro/problems/1098)
 * [ONI 2018 plaja](https://kilonova.ro/problems/1522/)
 * [USACO Silver Loan Repayment](https://usaco.org/index.php?page=viewproblem2&cpid=991)
+* [Lot 2018 Juniori cherhanale](https://kilonova.ro/problems/1626)
 * [Problemele cu cautare binara de pe kilonova](https://kilonova.ro/tags/315)
 * [Problemele cu cautare binara de pe codeforces](https://codeforces.com/problemset?tags=binary+search)
 * [Problemele cu cautare binara de pe infoarena](https://www.infoarena.ro/cauta-probleme?tag_id[]=49)
