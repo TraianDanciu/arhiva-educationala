@@ -269,7 +269,7 @@ Cazul de bază constă în faptul că $dp[1] = 0$ și $dp[2] = abs(v[1] - v[2])$
     ```
 
 <!-- Third Problem -->
-### Problema [Moneda](#)
+### Problema [Moneda]
 
 !!! info "Cerință"
 
