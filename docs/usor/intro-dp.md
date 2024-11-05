@@ -805,6 +805,7 @@ int main() {
 * [Lot Juniori Minusk](https://kilonova.ro/problems/1743)
 * [AtCoder Count Bracket Sequences](https://atcoder.jp/contests/abc312/tasks/abc312_d)
 * [AtCoder I hate Non Integer Number](https://atcoder.jp/contests/abc262/tasks/abc262_d)
+* [CodeForces Kindergarten](https://codeforces.com/contest/484/problem/D/)
 * [Problemele cu DP de pe Kilonova](https://kilonova.ro/tags/275)
 * [Problemele intre rating 500 si 1400 de aici](https://atcoder-tags.herokuapp.com/tag_search/Dynamic-Programming)
 * [Problemele cu DP de pe infoarena](https://infoarena.ro/cauta-probleme?tag_id[]=58)
