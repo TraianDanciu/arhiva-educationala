@@ -124,7 +124,7 @@ void phi_1_to_n(int n) {
     }
     for (int i = 2; i <= n; i++) {
         for (int j = 2 * i; j <= n; j += i) {
-              phi[j] -= phi[i];
+             phi[j] -= phi[i];
         }
     }
 }
@@ -140,6 +140,7 @@ Indicatorul lui Euler este o funcție care se dovedește a fi foarte importantă
 * [LCMSUM Spoj](https://www.spoj.com/problems/LCMSUM/)
 * [Permeuler pbinfo](https://www.pbinfo.ro/probleme/3295/permeuler)
 * [Common Divisors Codeforces](https://codeforces.com/problemset/problem/1203/C)
+* [GCD Extreme SPOJ](https://www.spoj.com/problems/GCDEX/)
 * [problemele de pe CPPI Sync](https://cppi.sync.ro/materia/indicatorul_lui_euler.html)
 * [problemele de pe pbinfo](https://www.pbinfo.ro/probleme/eticheta/57/indicatorul-lui-euler)
 * [Problemele din această listă de pe Vjudge](https://vjudge.net/contest/561512)
