@@ -619,9 +619,11 @@ int main() {
 }
 ```
 
+## Alte probleme
+
 <!-- Sixth problem -->
 
-## Problema [Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)
+### Problema [Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)
 
 Pentru această problemă, trebuie să aflăm numărul de moduri de a parcurge matricea din colțul stânga-sus în colțul dreapta-jos prin mișcări în jos și la dreapta, fără să parcurgem pătrate acoperite de ziduri. 
 
@@ -629,7 +631,7 @@ Deoarece avem de-a face cu o matrice, putem ține $dp[i][j]$ ca fiind numărul d
 
 Astfel, $dp[i][j] = dp[i-1][j] + dp[i][j-1]$.
 
-### Soluție
+Soluția:
 
 ```cpp
 #include <iostream>
@@ -669,7 +671,7 @@ int main() {
 ```
 
 <!-- Seventh problem -->
-## Problema [Sumtri1](https://www.pbinfo.ro/probleme/386/sumtri1)
+### Problema [Sumtri1](https://www.pbinfo.ro/probleme/386/sumtri1)
 
 === "Recursiv"
 
