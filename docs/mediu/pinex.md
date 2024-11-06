@@ -5,7 +5,7 @@ tags:
     - multimi
 ---
 
-**Autor**: Ștefan-Cosmin Dăscălescu, Traian Mihai Danciu
+**Autori**: Ștefan-Cosmin Dăscălescu, Traian Mihai Danciu
 
 În unele probleme de algoritmică, suntem nevoiți să calculăm numărul de răspunsuri care se potrivesc cu o anumită regulă, dar numărarea directă a fiecărei reguli în mod individual nu aduce cu ușurință răspunsul corect. În cazul acestor probleme, vom apela la un principiu matematic folosit în foarte mulți algoritmi elementari studiați până acum, formalizând discuția și aducând mai multe asemenea probleme în discuție. 
 
@@ -122,9 +122,9 @@ int main() {
     for (int msk = 1; msk < (1<<k); ++msk) {
         long long prod = 1;
         int cnt = 0;
-        for(int i = 0; i < k; ++i) {
-            if(msk & (1<<i)) {
-                if(n / prod < v[i]) { // evitam overflowul
+        for (int i = 0; i < k; ++i) {
+            if (msk & (1<<i)) {
+                if (n / prod < v[i]) { // evitam overflowul
                     prod = n+1;
                 }
                 else {
@@ -375,6 +375,7 @@ Principiul includerii și excluderii este un principiu ce se dovedește a fi uti
 * [USACO Gold Cowpability](http://www.usaco.org/index.php?page=viewproblem2&cpid=862)
 * [Codeforces Small GCD](https://codeforces.com/contest/1900/problem/D)
 * [Lot Juniori 2015 cardinal](https://kilonova.ro/problems/1639)
+* [Lot Juniori 2017 rooks](https://kilonova.ro/problems/1692)
 * [Lot Juniori 2019 divizori](https://kilonova.ro/problems/1807)
 * [Lot Juniori 2023 countall](https://kilonova.ro/problems/640)
 * [ONI 2023 Comun](https://kilonova.ro/problems/536/)
