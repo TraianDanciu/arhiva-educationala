@@ -28,7 +28,7 @@ Pentru a folosi această metodă, e nevoie să stăpânim lucrul cu secvențe ș
 și căutarea binară, deoarece pentru multe dintre exemplele ce vor fi menționate,
 există soluții și folosind acest algoritm. Nu în ultimul rând, pentru anumite
 probleme e posibil să fie nevoie de structuri de date adiționale, cum ar fi map
-sau set .
+sau set.
 
 În ceea ce privește modul în care începem implementările, avem două tipuri
 majore de implementări, în funcție de algoritm. Merită menționat faptul că
@@ -320,11 +320,12 @@ int main() {
 
 * [Infoarena 3secv](https://infoarena.ro/problema/3secv)
 * [JOI JJOOII 2](https://oj.uz/problem/view/JOI20_ho_t2)
-* [pbinfo maru](https://www.pbinfo.ro/probleme/2943/maru)
 * [NOI Singapore Global Warming](https://oj.uz/problem/view/NOI13_gw)
+* [Lot Juniori 2023 bossfight](https://kilonova.ro/problems/635)
+* [Lot Juniori 2014 orase](https://kilonova.ro/problems/1754)
 * [Baraj Seniori 2023 sirbun](https://kilonova.ro/problems/556)
-* [Infoarena nane](https://infoarena.ro/problema/nane)
-* [Infoarena teren](https://www.infoarena.ro/problema/teren)
+* [Baraj Juniori 2021 inno](https://kilonova.ro/problems/1097)
+* [ONI 2007 VII politic](https://kilonova.ro/problems/1272)
 * [USACO Social Distancing](http://www.usaco.org/index.php?page=viewproblem2&cpid=1038)
 * [USACO MooTube](http://www.usaco.org/index.php?page=viewproblem2&cpid=789)
 * [USACO Wormhole Sort](http://www.usaco.org/index.php?page=viewproblem2&cpid=992)
@@ -333,7 +334,6 @@ int main() {
 * [Probleme cu two pointers de pe kilonova](https://kilonova.ro/tags/291)
 * [Probleme cu two pointers de pe pbinfo](https://www.pbinfo.ro/probleme/eticheta/144/two-pointers)
 
-
 ### Probleme de pe Codeforces
 
 * [Towers - Codeforces](https://codeforces.com/group/swEqtABRxe/contest/227531/problem/C)
@@ -341,7 +341,15 @@ int main() {
 * [Two Pointers Step 1 - Codeforces EDU](https://codeforces.com/edu/course/2/lesson/9/1/practice)
 * [Two Pointers Step 2 - Codeforces EDU](https://codeforces.com/edu/course/2/lesson/9/2/practice)
 * [Two Pointers Step 3 - Codeforces EDU](https://codeforces.com/edu/course/2/lesson/9/3/practice)
-    
+
+### Alte probleme
+
+* [pbinfo maru](https://www.pbinfo.ro/probleme/2943/maru)
+* [kilonova fulger](https://kilonova.ro/problems/1610)
+* [kilonova sugubatz](https://kilonova.ro/problems/1800)
+* [kilonova factoria](https://kilonova.ro/problems/2383)
+* [kilonova orase](https://kilonova.ro/problems/2201/)
+* [Infoarena teren](https://www.infoarena.ro/problema/teren)
 
 ## Bibliografie și lectură suplimentară
 
