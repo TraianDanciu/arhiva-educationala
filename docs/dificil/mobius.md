@@ -556,9 +556,13 @@ int main() {
 ## Probleme suplimentare
 
 * [ONI 2021 Baraj Seniori Pastile](https://kilonova.ro/problems/69)
+* [Lot 2015 Juniori cardinal](https://kilonova.ro/problems/1639)
 * [Lot 2023 Juniori countall](https://kilonova.ro/problems/640)
 * [RoAlgo Contest #8 Gya-chan and the gcd operation](https://kilonova.ro/problems/2017)
 * [USACO Gold Cowpability](https://usaco.org/index.php?page=viewproblem2&cpid=862)
+* [CF 803F](https://codeforces.com/contest/803/problem/F)
+* [CF 915G](https://codeforces.com/contest/915/problem/G)
+* [CodeChef - COPRIME3](https://www.codechef.com/problems/COPRIME3)
 * [Listă de probleme cu Mobius](https://vjudge.net/contest/151569)
 * [Sum of gcd of Tuples (Hard)](https://atcoder.jp/contests/abc162/tasks/abc162_e)
     
