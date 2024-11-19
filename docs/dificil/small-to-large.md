@@ -247,8 +247,8 @@ int main() {
 * [Lomsat Gerlal - Codeforces](https://codeforces.com/problemset/problem/600/E)
 * [Arborel - Kilonova](https://kilonova.ro/problems/2970)
 * [Magic Tree - CEOI 2019](https://codeforces.com/contest/1193/problem/B)
-* [Alte probleme cu small-to-large de pe Kilonova](https://kilonova.ro/problems/2098)
-
+* [Foresight - Lot 2022 Seniori](https://kilonova.ro/problems/211/)
+* [Alte probleme cu small-to-large de pe Kilonova](https://kilonova.ro/tags/306)
 
 ## Resurse suplimentare 
 
