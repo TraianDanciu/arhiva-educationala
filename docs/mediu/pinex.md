@@ -204,7 +204,7 @@ Fie $f(n, i)$ numărul de moduri de a împărți numărul $n$ în produs de $i$ 
 Răspunsul va fi $\sum _{i=1} ^S \sum _{j=0} ^i \ (-1)^j \cdot C _i ^j \cdot f(x, i-j)$, deoarece putem alege cele $j$ elemente care vor fi egale cu $1$ în $C _i ^j$ moduri.
 
 !!! note "Observație"
-    Să calculam $f(n, i)$. Fie $k$ numărul de factori primi ai lui $n$ și fie $exp_k$ exponentul al celui de-al $k$-lea factor prim în $n$. Pentru a afla numărul, putem să ne legăm de fiecare factor prim. Noi trebuie sa vedem câți vectori (tablouri unidimensionale) de lungime $i$ cu elemente posibil nule au suma elementelor egală cu $exp_K$. Această formulă este studoiată în articolul de [Stars and Bars](https://edu.roalgo.ro/mediu/intro-combinatorics/?h=stars#stars-and-bars). Așa că, numărul căutat va fi $\prod _{j=1} ^k C _{exp_k+i-1} ^{i-1}$.
+    Să calculam $f(n, i)$. Fie $k$ numărul de factori primi ai lui $n$ și fie $exp_k$ exponentul al celui de-al $k$-lea factor prim în $n$. Pentru a afla numărul, putem să ne legăm de fiecare factor prim. Noi trebuie sa vedem câți vectori (tablouri unidimensionale) de lungime $i$ cu elemente posibil nule au suma elementelor egală cu $exp_K$. Această formulă este studiată în articolul de [Stars and Bars](https://edu.roalgo.ro/mediu/intro-combinatorics/?h=stars#stars-and-bars). Așa că, numărul căutat va fi $\prod _{j=1} ^k C _{exp_k+i-1} ^{i-1}$.
 
 !!! note "Observație"
     Descompunerea în factori primi o vom face folosind numerele prime, pe care le vom precalcula folosind [ciurul lui eratostene](https://edu.roalgo.ro/usor/sieve/).
