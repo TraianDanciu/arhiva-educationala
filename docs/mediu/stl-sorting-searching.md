@@ -1,16 +1,16 @@
 ---
+id: stl-sorting-searching
+author:
+    - Ștefan-Cosmin Dăscălescu
+prerequisites:
+    - greedy
+    - sorting
+    - stl
 tags:
     - meta
     - greedy
     - structuri de date
 ---
-
-**Autor**: Ștefan-Cosmin Dăscălescu
-
-!!! example "Cunoștințe necesare"
-    - [Introducere în metoda Greedy](../usor/greedy.md)
-    - [Algoritmi de sortare](../usor/sorting.md)
-    - [Introducere în STL](../cppintro/stl.md)
 
 ## Introducere
 
@@ -29,7 +29,7 @@ acestor biblioteci ce compun STL.
 ## Problema [Subarray Sums II - CSES](https://cses.fi/problemset/task/1661)
 
 Pentru a rezolva această problemă, putem pleca de la una din soluțiile care are
-complexitatea $O(n^2)$. Această soluție calculează sumele parțiale ale șirului
+complexitatea $\mathcal{O}(n^2)$. Această soluție calculează sumele parțiale ale șirului
 și fixează capetele din stânga și dreapta, folosindu-se de sumele parțiale
 calculate anterior pentru a număra secvențele cu suma $s$.
 
@@ -41,7 +41,7 @@ Acest lucru se poate face stocând cu ajutorul unui map frecvența fiecărei sum
 (inițializăm la început suma 0 cu frecvența 1, corespunzătoare unui șir
 gol), iar pentru fiecare $i$, vom actualiza datele din map și vom aduna la
 răspuns frecvența sumei căutate. Astfel, complexitatea algoritmului va deveni
-$O(n \log n)$.
+$\mathcal{O}(n \log n)$.
 
 ```cpp
 #include <iostream>
@@ -192,6 +192,8 @@ abordări care să se muleze și pe restricțiile problemelor în sine.
 - [CSES Apartments](https://cses.fi/problemset/task/1084/)
 - [OJI 2023 parcare](https://kilonova.ro/problems/500)
 - [USACO Silver Convention II](https://usaco.org/index.php?page=viewproblem2&cpid=859)
+- [Codeforces Voting (easy)](https://codeforces.com/contest/1251/problem/E1)
+- [Codeforces Good Subarrays](https://codeforces.com/problemset/problem/1398/C)
 - [Codeforces William and Robot](https://codeforces.com/gym/104002/problem/E)
 - [OJI 2024 parking](https://kilonova.ro/problems/24)
 - [USACO Gold Snow Boots](http://www.usaco.org/index.php?page=viewproblem2&cpid=813)

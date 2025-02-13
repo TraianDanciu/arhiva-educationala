@@ -1,10 +1,12 @@
 ---
+id: roadmap
+author:
+    - Ștefan-Cosmin Dăscălescu
 tags:
     - meta
     - sfaturi
     - pas cu pas
 ---
-**Autor**: Ștefan-Cosmin Dăscălescu
 
 ## Introducere
 
@@ -89,7 +91,7 @@ limbajul C++ și în general, tehnici de bază de rezolvare a problemelor.
 
 ### Fundamentele limbajului C++
 
-- [Instalarea primului editor/IDE](../cppintro/)
+- [Instalarea primului editor/IDE](../cppintro/index.md)
 - [Primul program în C++](../cppintro/intro.md)
 - [Variabile și tipuri de date simple](../cppintro/data-types.md)
 - [Operatori și expresii. Cunoștințe matematice de
@@ -126,7 +128,7 @@ putea trece la noțiuni mai specifice.
 
 - [Complexități](./complexity.md)
 - [Simularea soluției](./simulating-solution.md)
-- [Algoritmi de sortare](./sorting.md) - Doar algoritmii în $O(n^2)$ și
+- [Algoritmi de sortare](./sorting.md) - Doar algoritmii în $\mathcal{O}(n^2)$ și
   funcția std::sort
 - [Ciurul lui Eratostene](./sieve.md)
 - [Sume parțiale](./partial-sums.md) - Doar sumele parțiale

@@ -1,13 +1,13 @@
 ---
+id: range-dp
+author:
+    - Ștefan-Cosmin Dăscălescu
+prerequisites:
+    - intro-dp
 tags:
     - programare dinamica
     - intervale
 ---
-
-**Autor**: Ștefan-Cosmin Dăscălescu
-
-!!! example "Cunoștințe necesare"
-    - [Introducere în programarea dinamică](../usor/intro-dp.md)
 
 În acest articol vom prezenta modul în care aplicăm tehnica programării dinamice
 atunci când vine vorba de a afla diverse răspunsuri minime sau maxime pentru
@@ -63,7 +63,7 @@ orizontale, fie verticale, atâta timp cât păstrăm laturile drept numere înt
 Cu alte cuvinte, vom putea fixa punctul în care vom face tăietura și de acolo,
 vom folosi rezultatele calculate anterior, sau în cazul soluției recursive, le
 vom calcula la rândul lor până când toate valorile au fost calculate.
-Complexitatea acestei soluții va fi $O(n^3)$, unde $n$ este maximul dintre $a$
+Complexitatea acestei soluții va fi $\mathcal{O}(n^3)$, unde $n$ este maximul dintre $a$
 și $b$.
 
 Mai jos puteți găsi implementările iterative și recursive ale acestei probleme.
@@ -282,6 +282,7 @@ modifica stările și modul de calcul.
 - [ONI 2008 Baraj Seniori stiva](https://kilonova.ro/problems/1789)
 - [Zuma Codeforces](https://codeforces.com/problemset/problem/607/B)
 - [ONI 2023 Baraj Seniori bt](https://kilonova.ro/problems/557/)
+- [ONI 2005 Baraj Seniori evantai](https://kilonova.ro/problems/1869/)
 - [Empty String CSES](https://cses.fi/problemset/task/1080)
 - [Queries for Number of Palindromes
   Codeforces](https://codeforces.com/contest/245/problem/H)

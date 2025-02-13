@@ -1,16 +1,16 @@
 ---
+id: sieve
+author:
+    - Ștefan-Cosmin Dăscălescu
+prerequisites:
+    - divisibility
+    - frequency-arrays
 tags:
     - matematica
     - numere prime
     - divizori
     - precalculari
 ---
-
-**Autor**: Ștefan-Cosmin Dăscălescu
-
-!!! example "Cunoștințe necesare"
-    - [Divizibilitatea (CMMDC, CMMMC, aflarea divizorilor)](./divisibility.md)
-    - [Vectori de frecvență](./frequency-arrays.md)
 
 ## Ce este ciurul lui Eratostene?
 
@@ -57,8 +57,8 @@ Un exemplu de vizualizare pentru numerele de la 1 la 16
 
 Algoritmul se dovedește a fi o optimizare față de metoda standard de aflare
 pentru toate numerele de la 1 la $n$ a primalității, complexitatea devenind
-$O(n \log \log n)$ pentru aflarea primalității pentru toate numerele, respectiv
-$O(n \log n)$ pentru majoritatea celorlalte tipuri de prelucrări. De asemenea,
+$\mathcal{O}(n \log \log n)$ pentru aflarea primalității pentru toate numerele, respectiv
+$\mathcal{O}(n \log n)$ pentru majoritatea celorlalte tipuri de prelucrări. De asemenea,
 și implementarea se dovedește a fi una foarte scurtă, ciurul putând fi scris în
 câteva rânduri.
 

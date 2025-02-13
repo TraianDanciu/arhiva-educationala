@@ -1,16 +1,17 @@
 ---
+id: bignum
+author:
+    - Susan
+    - Ștefan-Cosmin Dăscălescu
+prerequisites:
+    - basic-math
+    - arrays
 tags:
     - vectori
     - matematica
     - numere mari
     - implementare
 ---
-
-**Autori**: Susan, Ștefan-Cosmin Dăscălescu
-
-!!! example "Cunoștințe necesare"
-    - [Operatori și expresii. Cunoștințe matematice de bază](../cppintro/basic-math.md)
-    - [Vectori (tablouri unidimensionale)](../cppintro/arrays.md)
 
 Fie $\overline{a_{n-1} a_{n-2} \ldots a_1 a_0}$ un număr în baza 10, format
 din $n$ cifre. Aici, $a_i$ pentru $0 \leq i < n$ sunt cifrele numărului, cu
@@ -428,7 +429,7 @@ for (; val; val /= 10) {
 ### Înmulțirea a două numere mari
 
 Înmulțirea a două numere mari va necesita lucrul cu toate cifrele numărului,
-complexitatea algoritmului devenind $O(n_A \cdot n_B)$, unde $n_A$ reprezintă
+complexitatea algoritmului devenind $\mathcal{O}(n_A \cdot n_B)$, unde $n_A$ reprezintă
 numărul de cifre al lui $A$, iar $n_B$, numărul de cifre al lui $B$. Din nou,
 implementarea va fi asemănătoare cu cea învățată în clasele mici la școală.
 

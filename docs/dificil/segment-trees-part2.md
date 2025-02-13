@@ -1,14 +1,14 @@
 ---
+id: segment-trees-part2
+author:
+    - Ștefan-Cosmin Dăscălescu
+prerequisites:
+    - segment-trees
 tags:
     - structuri de date
     - arbori de intervale
     - lazy propagation
 ---
-
-**Autor**: Ștefan-Cosmin Dăscălescu
-
-!!! example "Cunoștințe necesare"
-    - [Arbori de intervale](./segment-trees.md)
 
 ## Introducere
 
@@ -33,7 +33,7 @@ binară pe rezultat, iar la un pas al căutării binare, să folosim un arbore d
 intervale care să ne răspundă rapid la un query de tipul care este valoarea
 maximă în intervalul $[1, mid]$.
 
-Deși această soluție rulează în $O(q \log^2 n)$, poate fi prea înceată în
+Deși această soluție rulează în $\mathcal{O}(q \log^2 n)$, poate fi prea înceată în
 anumite situații. De aceea, se impune găsirea unor optimizări care să ne permită
 să nu mai avem nevoie de o altă căutare binară.
 

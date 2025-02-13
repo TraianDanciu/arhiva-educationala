@@ -1,4 +1,13 @@
 ---
+id: lee
+author:
+    - Ștefan-Cosmin Dăscălescu
+    - Teodor Ștefan Manolea
+prerequisites:
+    - arrays
+    - matrices
+    - queue
+    - functions
 tags:
     - structuri de date
     - Coadă
@@ -8,14 +17,6 @@ tags:
     - BFS
     - DFS
 ---
-
-**Autor:** Ștefan-Cosmin Dăscălescu, Teodor Ștefan Manolea
-
-!!! example "Cunoștințe necesare"
-    - [Vectori (tablouri unidimensionale)](../cppintro/arrays.md)
-    - [Matrici (tablouri bidimensionale)](../cppintro/matrices.md)
-    - [Coada](./queue.md)
-    - [Subprograme](../cppintro/functions.md)
 
 ## Introducere
 
@@ -634,7 +635,7 @@ int main() {
 Deși acest algoritm este folosit în principal pentru problemele de drumuri
 minime pe grafuri, există exemple care implică și probleme pe matrici, așa cum
 se precizează în [articolul nostru despre drumuri
-minime](./shortest-path.md.md#0-1-bfs).
+minime](./shortest-path.md#0-1-bfs).
 
 ## Lee cu structuri de date
 

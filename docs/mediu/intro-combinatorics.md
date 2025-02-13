@@ -1,4 +1,12 @@
 ---
+id: intro-combinatorics
+author:
+    - Ștefan-Cosmin Dăscălescu
+    - Ștefan-Iulian Alecu
+prerequisites:
+    - pow-log
+    - modular-inverse
+    - pinex
 tags:
     - matematica
     - combinatorica
@@ -7,13 +15,6 @@ tags:
     - aranjamente
     - combinari
 ---
-
-**Autori**: Ștefan-Cosmin Dăscălescu, Ștefan-Iulian Alecu
-
-!!! example "Cunoștințe necesare"  
-    - [Aritmetică modulară. Ridicare la putere în timp logaritmic](./pow-log.md)
-    - [Invers modular](./modular-inverse.md)
-    - [Principiul includerii și excluderii](./pinex.md)
 
 Combinatorica este una din ramurile principale ale matematicii, precum și una
 din cele patru ramuri din care se dau problemele de la olimpiada internațională
@@ -37,13 +38,12 @@ olimpiada clasei a zecea. Ulterior, poate să se regăsească și ca subprobleme
 probele ulterioare de seniori, într-o măsură mai mică.
 
 Pentru a putea parcurge acest capitol, recomandăm citirea în prealabil a
-articolelor despre [aritmetica modulară](./pow-log),
-[divizibilitate](../usor/divisibility.md) și în general să
-aveți o înțelegere a conceptelor matematice din capitolele anterioare. Va fi
-foarte importantă și înțelegerea conceptului de invers modular, deoarece deși în
-cele mai multe probleme vom avea de-a face cu modulo numere prime, uneori va
-trebui să știm să implementăm și algoritmul de aflare al [inversul
-modular](./modular-inverse.md).
+articolelor despre [aritmetica modulară](./pow-log.md),
+[divizibilitate](../usor/divisibility.md) și în general să aveți o înțelegere a
+conceptelor matematice din capitolele anterioare. Va fi foarte importantă și
+înțelegerea conceptului de invers modular, deoarece deși în cele mai multe
+probleme vom avea de-a face cu modulo numere prime, uneori va trebui să știm să
+implementăm și algoritmul de aflare al [inversul modular](./modular-inverse.md).
 
 ## Noțiuni teoretice fundamentale
 
@@ -250,8 +250,8 @@ for (int n = 1; n <= N; n++) {
 }
 ```
 
-Există o metodă mai eficientă de a calcula $C_n^k$ în timp $O(k)$ și spațiu
-$O(1)$:
+Există o metodă mai eficientă de a calcula $C_n^k$ în timp $\mathcal{O}(k)$ și spațiu
+$\mathcal{O}(1)$:
 
 ```cpp
 const long long C(int n, int k) {
@@ -371,7 +371,7 @@ această recurență, avem o formulă relativ simplă.
 Complexitatea acestei recurențe este $n^2$, optimizarea ei fiind imposibilă
 folosind această abordare. Din fericire, există o metodă și mai rapidă, care
 folosește [numere pentagonale](https://codeforces.com/blog/entry/104312),
-abordare ce ne duce la o soluție în $O(n\sqrt n)$, pentru mai multe detalii
+abordare ce ne duce la o soluție în $\mathcal{O}(n\sqrt n)$, pentru mai multe detalii
 puteți accesa [acest articol](https://infogenius.ro/partitii-numar-natural/) sau
 rezolva problema [crescător2](https://infoarena.ro/problema/crescator2).
 
@@ -619,15 +619,16 @@ rezultate importante atât în matematică, cât și în informatică.
 
 ### Alte probleme
 
-- [Bracket Sequences I](https://cses.fi/problemset/task/2064)
-- [Bracket Sequences II](https://cses.fi/problemset/task/2187)
-- [Distributing Apples](https://cses.fi/problemset/task/1716)
-- [Arena](https://codeforces.com/problemset/problem/1606/E)
-- [Close Tuples (hard version)](https://codeforces.com/contest/1462/problem/E2)
-- [Almost Identity
+- [CSES Bracket Sequences I](https://cses.fi/problemset/task/2064)
+- [CSES Bracket Sequences II](https://cses.fi/problemset/task/2187)
+- [CSES Distributing Apples](https://cses.fi/problemset/task/1716)
+- [Codeforces Arena](https://codeforces.com/problemset/problem/1606/E)
+- [Codeforces Close Tuples (hard version)](https://codeforces.com/contest/1462/problem/E2)
+- [Codeforces Almost Identity
   Permutations](https://codeforces.com/problemset/problem/888/D)
-- [Med and Mex](https://codeforces.com/gym/104520/problem/K)
-- [Different Subsets For All
+- [Codeforces Card Game](https://codeforces.com/contest/2025/problem/E)
+- [Codeforces Med and Mex](https://codeforces.com/gym/104520/problem/K)
+- [Codeforces Different Subsets For All
   Tuples](https://codeforces.com/contest/660/problem/E)
 - [Probleme de combinatorică de pe
   Codeforces](https://codeforces.com/problemset?tags=combinatorics)
@@ -650,6 +651,7 @@ rezultate importante atât în matematică, cât și în informatică.
 - [Elemente de combinatorică, curs predat la lotul de juniori din
   2018](https://www.scribd.com/document/634592386/Elemente-de-combinatorica-2018)
 - [Derangement - wikipedia](https://en.wikipedia.org/wiki/Derangement)
+- [A tutorial of reflection principle in combinatorics](https://codeforces.com/blog/entry/135139)
 - [Problem Solving Guide to Modular Combinatorics and Exponentiation -
   Codeforces](https://codeforces.com/blog/entry/78873)
 - [Binomial coefficient -

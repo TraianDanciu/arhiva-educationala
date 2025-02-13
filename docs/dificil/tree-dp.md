@@ -1,15 +1,15 @@
 ---
+id: tree-dp
+author:
+    - Ștefan-Cosmin Dăscălescu
+prerequisites:
+    - tree-1
+    - intro-dp
+    - rerooting
 tags:
     - programare dinamica
     - arbori
 ---
-
-**Autor**: Ștefan-Cosmin Dăscălescu
-
-!!! example "Cunoștințe necesare"
-    - [Introducere în arbori](../mediu/tree-1.md)  
-    - [Introducere în programarea dinamică](../usor/intro-dp.md)
-    - [Tehnica celor două DFS-uri (rerooting)](../mediu/rerooting.md)
 
 ## Introducere
 
@@ -452,7 +452,7 @@ cu rădăcina în nodul $i$, iar în acel nod avem valoarea $j$.
 Pentru a calcula această dinamică, putem avea mai întâi niște
 tranziții încete care calculează pentru fiecare variantă de a avea
 o valoare pe un nod, numărul de moduri de a avea o valoare pe un fiu,
-dar această abordare ar avea complexitatea $O(n \cdot m^2)$, ceea
+dar această abordare ar avea complexitatea $\mathcal{O}(n \cdot m^2)$, ceea
 ce este prea încet.
 
 O observație importantă pe care o facem este aceea că ne va interesa
@@ -462,7 +462,7 @@ pas, vom ține cont de numărul de factori primi și de suma parțială
 a răspunsurilor pentru numerele care sunt multiplu ale acelui divizor.
 
 Astfel, vom ajunge să avem o complexitate echivalentă cu aplicarea
-unui [PINEX](../mediu/pinex.md), deci $O(n \cdot m \cdot DMAX)$,
+unui [PINEX](../mediu/pinex.md), deci $\mathcal{O}(n \cdot m \cdot DMAX)$,
 unde $DMAX$ este numărul maxim de divizori pe care îi are un număr conform
 precalculării anterioare, iar acest număr $DMAX$ este egal cu 31 deoarece
 orice număr de la 1 la $m$ are cel mult 5 factori primi distincți.
@@ -705,9 +705,11 @@ are concepte mai simple, dar care se leagă de cunoștințele prezentate aici.
 - [USACO Gold Barn Painting](https://usaco.org/index.php?page=viewproblem2&cpid=766)
 - [USACO Gold Delegation](http://www.usaco.org/index.php?page=viewproblem2&cpid=1019)
 - [RMI 2023 AAtree](https://kilonova.ro/problems/1834)
+- [ONI 2017 Baraj Seniori Cli](https://kilonova.ro/problems/274)
 - [Moisil 2024 Arborele frumos](https://kilonova.ro/problems/2568/)
 - [Permutree Codeforces](https://codeforces.com/problemset/problem/1856/E2)
 - [JOI 2020 Power](https://oj.uz/problem/view/JOI20_power)
+- [IZhO 2017 Hard route](https://oj.uz/problem/view/IZhO17_road)
 - [ONI 2018 tricolor](https://kilonova.ro/problems/151)
 - [ONI 2021 Baraj Seniori Arbsumpow](https://kilonova.ro/problems/67/)
 - [ONI 2019 Baraj Seniori Anarhie](https://kilonova.ro/problems/409/)

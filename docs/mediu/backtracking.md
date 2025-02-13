@@ -1,17 +1,17 @@
 ---
+id: backtracking
+author:
+    - Ștefan-Cosmin Dăscălescu
+prerequisites:
+    - functions
+    - simulating-solution
+    - divide-et-impera
 tags:
     - brute force
     - implementare
     - recursivitate
     - cautare completa
 ---
-
-**Autor**: Ștefan-Cosmin Dăscălescu
-
-!!! example "Cunoștințe necesare"
-    - [Subprograme](../cppintro/functions.md)
-    - [Simularea soluției](../usor/simulating-solution.md)
-    - [Tehnica divide et impera](./divide-et-impera.md)
 
 ## Introducere
 
@@ -49,7 +49,7 @@ apoi vom avea două cazuri distincte:
     a unui alt șir, care să ne ofere informația despre existența unei anumite
     valori în permutare.
 
-Deoarece sunt $n!$ permutări, complexitatea soluției va fi $O(n! \cdot n)$.
+Deoarece sunt $n!$ permutări, complexitatea soluției va fi $\mathcal{O}(n! \cdot n)$.
 
 ```cpp
 #include <fstream>

@@ -1,16 +1,17 @@
 ---
+id: fenwick-tree
+author: 
+  - Ștefan-Cosmin Dăscălescu
+  - Luca Valentin Mureșan
+prerequisites:
+    - functions
+    - bitwise-ops
+    - rmq
 tags:
     - structuri de date
     - arbori indexati binar
     - optimizare
 ---
-
-**Autori**: Ștefan-Cosmin Dăscălescu, Luca Valentin Mureșan
-
-!!! example "Cunoștințe necesare"
-    - [Subprograme](../cppintro/functions.md)
-    - [Operații pe biți](../mediu/bitwise-ops.md)
-    - [Range Minimum Query (RMQ)](./rmq.md)
 
 ## Ce este un arbore indexat binar?
 
@@ -71,7 +72,7 @@ poate vedea pe desen:
 
 ![Un exemplu de update pentru poziția 3](../images/fenwick/fenwick-update.png)
 
-Complexitatea operației de update este $O(\log n)$, unde $n$ este dimensiunea
+Complexitatea operației de update este $\mathcal{O}(\log n)$, unde $n$ este dimensiunea
 arborelui indexat binar.
 
 ### Cum funcționează operația de query?
@@ -105,7 +106,7 @@ poate vedea pe desen:
 
 ![Un exemplu de query pentru poziția 13](../images/fenwick/fenwick-query.png)
 
-Complexitatea operației de query este $O(\log n)$, unde $n$ este dimensiunea
+Complexitatea operației de query este $\mathcal{O}(\log n)$, unde $n$ este dimensiunea
 arborelui indexat binar.
 
 ## Implementarea în C++
@@ -149,7 +150,7 @@ este poziția în vectorul sortat a celei mai din dreapta valori din șir egală
 valoarea de la poziția curentă.
 
 Deoarece valorile din șir sunt destul de mari, trebuie să [normalizăm
-datele](../arhiva-educationala/mediu/data-normalization.md),
+datele](../mediu/data-normalization.md),
 iar mai apoi să folosim AIB pentru a rezolva problema.
 
 ```cpp
@@ -227,10 +228,10 @@ date, iar încă o dată, arborii indexați binari se dovedesc a fi soluția
 potrivită pentru această problemă, datorită vitezei de implementare și a
 ușurinței de folosire. Pentru a afla suma celor mai mici $p$ valori din șir, vom
 căuta binar răspunsul, folosind o metodă similară cu cea descrisă mai sus. Deși
-căutarea binară naivă în $O(\log^2 n)$ ia punctajul maxim, se recomandă căutarea
-binară în $O(\log n)$.
+căutarea binară naivă în $\mathcal{O}(\log^2 n)$ ia punctajul maxim, se recomandă căutarea
+binară în $\mathcal{O}(\log n)$.
 
-Pentru a căuta binar în AIB în $O(\log n)$, vom folosi o tehnică similară cu
+Pentru a căuta binar în AIB în $\mathcal{O}(\log n)$, vom folosi o tehnică similară cu
 [căutarea binară pe
 biți](../usor/binary-search.md#cautarea-binara-a-lui-mihai-patrascu), verificând
 dacă adăugarea a $2^k$ poziții în AIB ne-ar duce peste valoarea cerută sau nu.
@@ -311,3 +312,4 @@ int main() {
   Codeforces](https://codeforces.com/blog/entry/57292)
 - [Binary Indexed Trees - USACO
   Guide](https://usaco.guide/gold/PURS?lang=cpp#binary-indexed-tree)
+- [A simple introduction to Fenwick Trees - robert1003](https://robert1003.github.io/2020/01/27/fenwick-tree.html)

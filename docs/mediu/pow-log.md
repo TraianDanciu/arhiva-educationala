@@ -1,16 +1,16 @@
 ---
+id: pow-log
+author:
+    - Ștefan-Cosmin Dăscălescu
+prerequisites:
+    - basic-math
+    - divisibility
+    - functions
 tags:
     - algebra
     - optimizari
     - modulo
 ---
-
-**Autor**: Ștefan-Cosmin Dăscălescu
-
-!!! example "Cunoștințe necesare"
-    - [Operatori și expresii. Cunoștințe matematice de bază](../cppintro/basic-math.md)
-    - [Divizibilitatea (CMMDC, CMMMC, aflarea divizorilor)](../usor/divisibility.md)
-    - [Subprograme](../cppintro/functions.md)
 
 ## Introducere
 
@@ -97,7 +97,7 @@ pentru mai multe detalii.
 ## Ridicarea la putere în timp logaritmic
 
 Pentru a calcula expresia $a^n$, o primă variantă este aceea de a lucra folosind
-brute-force, complexitatea fiind $O(n)$.
+brute-force, complexitatea fiind $\mathcal{O}(n)$.
 
 ```cpp
 long long prod = 1;
@@ -125,7 +125,7 @@ $a^b$ este egal cu una din următoarele două expresii:
 Pentru $n = 0$, răspunsul este evident 1.
 
 Astfel, prin împărțirile treptate la 2 ale exponentului, reducem complexitatea
-la $O(\log n)$, unde $n$ este exponentul.
+la $\mathcal{O}(\log n)$, unde $n$ este exponentul.
 
 Acest algoritm se poate implementa atât recursiv, cât și iterativ, acestea fiind
 funcțiile folosite pentru problema [Exponentiation de pe

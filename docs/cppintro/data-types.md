@@ -1,15 +1,16 @@
 ---
+id: data-types
+author:
+    - Ștefan-Cosmin Dăscălescu
+    - Ștefan-Iulian Alecu
+prerequisites:
+    - intro
 tags:
   - C++
   - introducere
   - variabile
   - tipuri de date
 ---
-
-**Autori**: Ștefan-Cosmin Dăscălescu, Ștefan-Iulian Alecu
-
-!!! example "Cunoștințe necesare"
-    - [Primul program în C++](./intro.md)
 
 Așa cum ați observat atunci când am prezentat primul program în articolul
 precedent, fiecare componentă are mai multe caracteristici, una dintre cele mai
@@ -19,8 +20,8 @@ Ulterior, voi împărți în cele ce urmează tipurile de date simple în funcț
 valorile care sunt păstrate.
 
 Totuși, unele tipuri de date mai complexe, cum ar fi
-[vectorii](../usor/arrays.md) sau
-[matricile](../usor/matrices.md), vor fi discutate în
+[vectorii](../cppintro/arrays.md) sau
+[matricile](../cppintro/matrices.md), vor fi discutate în
 articolele lor corespunzătoare.
 
 ## Variabile

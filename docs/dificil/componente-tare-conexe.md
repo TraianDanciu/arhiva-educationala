@@ -1,17 +1,17 @@
 ---
+id: componente-tare-conexe
+author:
+    - Ștefan-Cosmin Dăscălescu
+prerequisites:
+    - graphs
+    - toposort
+    - cycles
+    - intro-dp
 tags:
     - grafuri orientate
     - parcurgeri
     - cicluri
 ---
-
-**Autor**: Ștefan-Cosmin Dăscălescu
-
-!!! example "Cunoștințe necesare"
-    - [Introducere în teoria grafurilor](../usor/graphs.md)
-    - [Sortare topologică](../mediu/toposort.md)
-    - [Cicluri în grafuri](../mediu/cycles.md)
-    - [Introducere în programarea dinamică](../usor/intro-dp.md)
 
 ## Introducere
 
@@ -74,7 +74,7 @@ nevizitat la acest pas, vom avea o parcurgere similară cu cea de la primul pas,
 parcurgere efectuată pe graful transpus care ne va da componentele tare conexe,
 acelea fiind cele care sunt vizitate de nodul curent la pasul dat.
 
-Acest algoritm are complexitate $O(n + m)$ și implementarea lui, folosită la
+Acest algoritm are complexitate $\mathcal{O}(n + m)$ și implementarea lui, folosită la
 problema [Planets and Kingdoms](https://cses.fi/problemset/task/1683/) poate fi
 citită mai jos:
 
